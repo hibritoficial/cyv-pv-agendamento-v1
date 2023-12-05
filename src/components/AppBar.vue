@@ -1,5 +1,5 @@
 <template>
-    <v-app-bar flat height="70">
+    <v-app-bar flat height="64">
         <div :class="smAndDown ? 'w-25 d-flex ml-5' : 'w-25 ml-16'">
             <v-img src="/logo.png" :class="smAndDown ? '' : 'w-50 mb-1 ml-14'"></v-img>
         </div>
