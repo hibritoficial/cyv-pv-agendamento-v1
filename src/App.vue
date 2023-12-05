@@ -7,14 +7,14 @@
           <v-row>
             <v-col :class="smAndDown ? 'd-flex mt-4 ml-1' : 'd-flex ml-14 pl-16 mt-16 pt-16'">
               <svg-icon color="black" type="mdi" :path="path" :size="iconSize" class="ColorFonts"
-                :class="smAndDown ? 'w-0 h-0' : 'mb-5 mr-1 mt-4'" />
+                :class="smAndDown ? 'w-0 h-0' : 'mb-5 mr-1'" />
               <svg-icon color="black" type="mdi" :path="path" :size="iconSizeMobile" class="ColorFonts"
                 :class="smAndDown ? 'mb-5 ml-3 mt-2' : 'w-0 h-0'" />
               <div :class="smAndDown ? 'ml-1' : ''">
-                <p class="ConsultorioMobile ColorFonts text-sm-p text-md-h5 mt-2" :class="smAndDown ? '' : ''">
+                <p class="ColorFonts" :class="smAndDown ? 'ConsultorioMobile text-p mt-2' : 'ConsultorioDesktop'">
                   CONSULTÓRIO EM
                 </p>
-                <h3 class="NatalRnMobile ColorFonts text-md-h3" :class="smAndDown ? '' : 'mt-3'">
+                <h3 class="ColorFonts" :class="smAndDown ? 'NatalRnMobile text-p' : 'NatalRnDesktop text-h4'">
                   NATAL-RN
                 </h3>
               </div>
@@ -37,7 +37,7 @@
           </div>
           <div :class="smAndDown ? '' : 'pl-16 w-50'">
             <v-btn class="BtnAgendarMobile h-25 pa-2 bg-terciary mt-2 ml-5 text-quartiary"
-              :class="smAndDown ? '' : 'BtnAgendarDesktop mt-16 ml-16 w-75 pt-6 pb-6 text-h5'">Agendar Consulta</v-btn>
+              :class="smAndDown ? '' : 'BtnAgendarDesktop mt-16 ml-15 w-75 pt-6 pb-6 text-h5'">Agendar Consulta</v-btn>
           </div>
         </v-img>
 
@@ -52,7 +52,7 @@
             MEDICINA
             INTEGRATIVA
           </h1>
-          <p class="SaudeMobile d-flex justify-center align-center" :class="smAndDown ? '' : 'mt-3 text-h6'">
+          <p class="SaudeMobile d-flex justify-center align-center" :class="smAndDown ? 'text-p mt-1' : 'mt-3 text-h6'">
             Saúde e qualidade de vida
             em nivel de excelência.
           </p>
@@ -70,22 +70,22 @@
                   AYURVEDA
                 </p>
               </div>
-              <v-card class="Cards bg-quartiary w-75 ml-10 mt-2" :class="smAndDown ? 'text-ml-10' : ''">
+              <v-card class="Cards bg-quartiary" :class="smAndDown ? 'text-ml-10 w-75 ml-10 mt-2' : 'w-75 ml-10 mt-2'">
                 <v-img src="/fotocard1.png" />
                 <p class="pl-5 pr-5 mt-6">
                   Saiba consumir alimentos,
                   temperos e ervas de acordo com seu
                   biotipo genético/epigenético.
                 </p>
-                <v-btn class="btnterapias bg-transparent d-flex justify-center align-center"
-                  :class="smAndDown ? 'ml-7 w-75 mb-11 mt-10' : ''">
+                <v-btn class="btnterapias bg-transparent"
+                  :class="smAndDown ? 'ml-7 w-75 mb-11 mt-10' : 'mt-16 ml-11 mb-10 pb-7 pt-4 w-75'">
                   SAIBA MAIS
                 </v-btn>
               </v-card>
             </v-col>
 
             <v-col cols="12" md="4">
-              <div :class="smAndDown ? 'mt-10' : 'mr-10'">
+              <div :class="smAndDown ? 'mt-5' : 'mr-10'">
                 <p class="Abordagem2Mobile d-flex justify-center align-center text-quartiary"
                   :class="smAndDown ? '' : 'text-body-2'">
                   ABORDAGEM 2
@@ -95,25 +95,23 @@
                   NUTROLOGIA
                 </p>
               </div>
-              <v-card class="Cards bg-quartiary w-75 ml-10 mt-2">
+              <v-card class="Cards bg-quartiary" :class="smAndDown ? 'w-75 ml-10 mt-2' : 'w-75 ml-10 mt-2'">
                 <v-img src="/fotocard2.png" />
-                <v-list class="bg-quartiary">
-                  <v-list-item>
-                    <p>• Emagrecimento</p>
-                  </v-list-item>
-                  <v-list-item>
-                    <p>• Ganho de Massa Muscular
-                    <p class="pl-3">(hipertrofia)</p>
-                    </p>
-                  </v-list-item>
-                  <v-list-item>
-                    <p>• Correção de Deficiências
-                    <p class="pl-3">Nutricionais</p>
-                    </p>
-                  </v-list-item>
-                </v-list>
-                <v-btn class="btnterapias bg-transparent d-flex justify-center align-center"
-                  :class="smAndDown ? 'ml-7 w-75  mb-11 mt-10' : ''">
+                <div :class="smAndDown ? 'ml-5 mt-6' : 'ml-5 mt-5'">
+                  <p>
+                    • Emagrecimento
+                  </p>
+                  <p>
+                    • Ganho de Massa Muscular
+                    (hipertrofia)
+                  </p>
+                  <p>
+                    • Correção de Deficiências
+                    Nutricionais
+                  </p>
+                </div>
+                <v-btn class="btnterapias bg-transparent"
+                  :class="smAndDown ? 'ml-7 w-75  mb-11 mt-10' : 'mt-16 ml-11 mb-10 pb-7 pt-4 w-75'">
                   SAIBA MAIS
                 </v-btn>
               </v-card>
@@ -131,15 +129,15 @@
                   FITOTERAPIA
                 </p>
               </div>
-              <v-card class="Cards bg-quartiary w-75 ml-10 mt-2" :class="smAndDown ? 'text-ml-10' : ''">
+              <v-card class="Cards bg-quartiary" :class="smAndDown ? 'text-ml-10 w-75 ml-10 mt-2 ' : 'w-75 ml-10 mt-2'">
                 <v-img src="/fotocard3.png" />
                 <p class="pl-5 pr-5 mt-6">
                   Saiba consumir alimentos,
                   temperos e ervas de acordo com seu
                   biotipo genético/epigenético.
                 </p>
-                <v-btn class="btnterapias bg-transparent d-flex justify-center align-center"
-                  :class="smAndDown ? 'ml-7 w-75 mb-11 mt-10' : ''">
+                <v-btn class="btnterapias bg-transparent"
+                  :class="smAndDown ? 'ml-7 w-75 mb-11 mt-10' : 'mt-16 ml-11 mb-10 pb-7 pt-4 w-75'">
                   SAIBA MAIS
                 </v-btn>
               </v-card>
@@ -151,29 +149,39 @@
       <v-img src="/bloco3.png">
         <v-row :class="smAndDown ? 'pt-10' : 'mt-16 pt-16'">
           <v-col cols="12" md="12" class="d-flex justify-center align-center" :class="smAndDown ? '' : 'mt-16 pt-16'">
-            <h1 class="FraseCyro ColorFonts" :class="smAndDown ? 'text-h6' : ''">
+            <h1 class="ColorFonts" :class="smAndDown ? 'FraseCyroMobile text-h6' : 'FraseCyroDesktop text-h2'">
               “Te ajudo a encontrar a virada de<p></p> chave para uma saúde e<p></p> qualidade de vida duradouras.“
             </h1>
           </v-col>
 
           <v-col cols="6" md="6" class="d-flex justify-center align-center ml-5" :class="smAndDown ? '' : ''">
-            <p class="DrCyroFraseMobile" :class="smAndDown ? 'text-h6 ml-2' : ''">- Dr. Cyro Vidal</p>
+            <p :class="smAndDown ? 'DrCyroFraseMobile text-h6' : 'ml-5 text-h6'">- Dr. Cyro Vidal</p>
           </v-col>
         </v-row>
       </v-img>
 
       <div class="d-flex justify-space">
-        <v-img src="/bloco4.png" class="" />
+        <v-img src="/bloco4.png" width="200" :class="smAndDown ? '' : 'w-50'" />
 
-        <div :class="smAndDown ? 'ml-3 mr-10 mt-5' : ''">
-          <p>SEU <span class="MedicoIntegrativoMobile">MÉDICO<p></p> INTEGRATIVO</span></p>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
+        <div :class="smAndDown ? 'ml-3 mr-10 mt-3' : 'ml-16 mr-16 mt-16'">
+          <p class="ColorFonts" :class="smAndDown ? '' : 'text-h2 mt-16 pt-5'">SEU <span
+              class="MedicoIntegrativoMobile">MÉDICO<p></p> INTEGRATIVO</span></p>
+          <p :class="smAndDown ? 'BiografiaMobile mt-2' : 'mt-10 BiografiaDesktop'">Ao concluir sua formação em Medicina
+            na UFPE, Dr.
+            Cyro Vidal
+            se sentiu compelido a ir além do convencional.
+          </p>
+
+          <p :class="smAndDown ? 'BiografiaMobile mt-2' : 'mt-10 BiografiaDesktop'">Se especializou em Nutrologia na USP,
+            se
+            especializou em
+            Ayurveda, Fitoterapia Clínica e Medicina Cannabinóide.
+          </p>
+
+          <p :class="smAndDown ? 'BiografiaMobile mt-2' : 'mt-10 BiografiaDesktop'">Toda essa jornada de aprendizado lhe
+            concedeu uma
+            perspectiva integral da medicina, focada no bem-estar do paciente.
+          </p>
         </div>
       </div>
       <Home />
@@ -189,10 +197,19 @@
   font-family: "OpenSans-Light", "Open Sans Light", "Open Sans", sans-serif;
 }
 
+.ConsultorioDesktop {
+  font-size: 19px;
+}
+
 .NatalRnMobile {
   font-size: 12.5px;
   font-family: "Open Sans Bold", "Open Sans", sans-serif;
 }
+
+.NatalRnDesktop {
+  font-weight: 700;
+}
+
 
 
 .EncontreCaminho {
@@ -234,6 +251,22 @@
 
 .FraseCyro {
   font-size: 70px;
+}
+
+.FraseCyroMobile {
+  font-weight: 700;
+}
+
+.FraseCyroDesktop {
+  line-height: 70px;
+}
+
+.BiografiaMobile {
+  font-size: 9px;
+}
+
+.BiografiaDesktop {
+  font-size: 32px;
 }
 
 .DrCyroFraseMobile {
