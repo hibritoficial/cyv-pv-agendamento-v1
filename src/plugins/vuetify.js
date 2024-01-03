@@ -17,10 +17,13 @@ export default createVuetify({
     themes: {
       light: {
         colors: {
-          primary: '#333333', // Cinza Escuro
+          primary: '#E0F6A1', // Verde Claro
           secondary: '#2f4045', // Cinza Meio Claro
           terciary: '#071c23', // Azul Petróleo Escuro
-          quartiary: '#E0F6A1', // Chartreuse Claro
+          quartiary: '#333333', // Cinza Escuro
+          quinary: '#28ACBC', // Azul Claro
+          senario: '#edfac7', // Verde Muito Claro
+          septenary: '#f0f1f1', // Azul Muito Claro
         },
       },
     },
