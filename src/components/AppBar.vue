@@ -6,11 +6,16 @@
         
         <v-app-bar-title />
 
-        <div :class="smAndDown ? '' : ''">
-            <v-btn class="bg-primary rounded-xl text-terciary" :class="smAndDown ? 'text-body-2 mt-1 mr-2' : 'text-body-1'">
+        <div :class="smAndUp ? 'mr-3' : 'd-none'">
+            <v-btn class="bg-primary rounded-xl text-terciary" :class="smAndUp ? 'text-body-2' : ''">
+                Agendar Consulta Integrativa
+            </v-btn>
+        </div>
+
+        <div :class="smAndUp ? 'd-none' : 'mr-2'">
+            <v-btn class="bg-primary rounded-xl text-terciary" :class="smAndUp ? '' : 'text-body-2'">
                 Agendar Consulta
             </v-btn>
-            
         </div>
     </v-app-bar>
 </template>
@@ -24,5 +29,5 @@
 <script setup>
 import { useDisplay } from 'vuetify';
 
-const { smAndDown } = useDisplay()
+const { smAndDown, smAndUp } = useDisplay()
 </script>
