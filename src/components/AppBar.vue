@@ -1,7 +1,7 @@
 <template>
     <v-app-bar flat height="50">
         <div :class="smAndDown ? 'w-50 ml-3' : 'w-25 ml-10'">
-            <v-img src="logo.png" :class="smAndDown ? 'w-50' : 'w-50'"></v-img>
+            <v-img src="/public/logo.png" :class="smAndDown ? 'w-50' : 'w-50'"></v-img>
         </div>
         
         <v-app-bar-title />

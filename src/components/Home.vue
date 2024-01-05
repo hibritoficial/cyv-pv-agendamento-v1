@@ -3,12 +3,12 @@
         <v-main>
 
             <div>
-                <v-img src="./cyro1.jpg" cover>
+                <v-img src="/public/cyro1.jpg" cover>
                     <div>
-                        <v-img src="./localizaçao.png" :class="smAndDown ? 'w-0 h-0' : 'w-0'" />
+                        <v-img src="/public/localizaçao.png" :class="smAndDown ? 'w-0 h-0' : 'w-0'" />
 
                         <div class="d-none d-sm-block">
-                            <v-img src="./localizaçao.png" :class="lgAndUp ? 'w-50 ml-10 mt-10' : 'w-50 ml-10 mt-10'" />
+                            <v-img src="/public/localizaçao.png" :class="lgAndUp ? 'w-50 ml-10 mt-10' : 'w-50 ml-10 mt-10'" />
                         </div>
 
                     </div>
@@ -117,7 +117,7 @@
 
                     <div :class="smAndDown ? 'w-50 mr-2' : 'w-25 ml-16 pl-10'">
                         <v-card class="bg-primary rounded-xl">
-                            <v-img src="./fotocard1.png" />
+                            <v-img src="/public/fotocard1.png" />
                             <div align="center" :class="smAndDown ? 'mt-3' : 'mt-10'">
                                 <p class="especialidade1 text-lg-h6" :class="smAndUp ? 'text-body-2' : ''">ESPECIALIDADE 1
                                 </p>
@@ -152,7 +152,7 @@
 
                     <div :class="smAndDown ? 'w-50 mr-2' : 'w-25 mr-10 pl-10'">
                         <v-card class="bg-primary rounded-xl">
-                            <v-img src="./fotocard2.png" />
+                            <v-img src="/public/fotocard2.png" />
                             <div align="center" :class="smAndDown ? 'mt-3' : 'mt-10'">
                                 <p class="especialidade2 text-lg-h6" :class="smAndUp ? 'text-body-2' : ''">ESPECIALIDADE 2
                                 </p>
@@ -191,7 +191,7 @@
 
                     <div :class="smAndDown ? 'w-50' : 'w-25 mr-16 pr-10'">
                         <v-card class="bg-primary rounded-xl">
-                            <v-img src="./fotocard3.png" />
+                            <v-img src="/public/fotocard3.png" />
                             <div align="center" :class="smAndDown ? 'mt-3' : 'mt-10'">
                                 <p class="especialidade3 text-lg-h6" :class="smAndUp ? 'text-body-2' : ''">ESPECIALIDADE 3
                                 </p>
@@ -226,11 +226,11 @@
 
 
                 <div class="d-lg-none" :class="smAndDown ? 'w-50 pl-2 pr-2 mt-5 mb-2' : ''">
-                    <v-img class="rounded-xl" src="./fotocard1.png" :class="smAndDown ? '' : ''" />
+                    <v-img class="rounded-xl" src="/public/fotocard1.png" :class="smAndDown ? '' : ''" />
                 </div>
 
                 <div class="d-none d-lg-block ml-16 pl-16 mt-16" align="center">
-                    <v-img class="rounded-xl" src="./fotocard1.png" width="450" />
+                    <v-img class="rounded-xl" src="/public/fotocard1.png" width="450" />
                 </div>
 
 
@@ -346,21 +346,21 @@
                 </div>
 
                 <div class="d-lg-none" :class="smAndDown ? 'w-50 pl-2 pr-2 mt-5 mb-2' : ''">
-                    <v-img class="rounded-xl" src="./fotocard2.png"></v-img>
+                    <v-img class="rounded-xl" src="/public/fotocard2.png"></v-img>
                 </div>
 
                 <div class="d-none d-lg-block mt-16" align="center">
-                    <v-img class="rounded-xl" src="./fotocard2.png" width="450" />
+                    <v-img class="rounded-xl" src="/public/fotocard2.png" width="450" />
                 </div>
             </div>
 
             <div class="bg-senario d-flex" :class="smAndDown ? '' : 'pl-16'">
 
                 <div class="d-lg-none" :class="smAndDown ? 'w-50 pl-2 pr-2 mt-5 mb-2' : ''">
-                    <v-img class="rounded-xl" src="./fotocard3.png"></v-img>
+                    <v-img class="rounded-xl" src="/public/fotocard3.png"></v-img>
                 </div>
                 <div class="d-none d-lg-block ml-16 pl-16 mt-16" align="center">
-                    <v-img class="rounded-xl" src="fotocard3.png" width="450" />
+                    <v-img class="rounded-xl" src="/public/fotocard3.png" width="450" />
                 </div>
 
                 <div :class="smAndDown ? 'mr-2 mt-7 pr-2 pb-10' : 'mr-16 pr-16 mt-16 ml-16 pt-5 pb-16 mb-16'">
@@ -416,7 +416,7 @@
             </div>
 
             <div class="d-flex justify-space-between" :class="smAndDown ? 'w-100' : 'w-75'">
-                <v-img src="./cyro2.png" cover></v-img>
+                <v-img src="/public/cyro2.png" cover></v-img>
 
                 <div class="text-terciary" :class="smAndDown ? 'pl-3 w-50 mb-2 pt-5' : 'mt-16 ml-10 pr-10 mb-10'">
                     <div :class="smAndUp ? 'pl-3 mb-5' : ''">
@@ -476,9 +476,9 @@
             <div align="center" class="bg-terciary" :class="smAndDown ? 'pt-10' : 'pt-8 pb-16'">
                 <div :class="smAndDown ? '' : 'pt-16 pb-16'">
                     <v-carousel :show-arrows="false" hide-delimiter-background color="primary">
-                        <v-carousel-item><v-avatar class="d-lg-none" image="./fulana.png" size="80"
+                        <v-carousel-item><v-avatar class="d-lg-none" image="/public/fulana.png" size="80"
                                 :class="smAndDown ? 'mt-16' : ''"></v-avatar>
-                            <v-avatar class="d-none d-lg-block mt-16" image="./fulana.png" size="180"></v-avatar>
+                            <v-avatar class="d-none d-lg-block mt-16" image="/public/fulana.png" size="180"></v-avatar>
                             <p :class="smAndDown ? 'mt-4 pl-5 pr-5' : 'mt-5 text-h5 px-16 mx-16'">Lorem ipsum dolor sit amet
                                 consectetur adipiscing
                                 elit. Lorem
@@ -487,9 +487,9 @@
                             <p class="text-primary" :class="smAndDown ? 'mt-4' : 'mt-5 text-h5'">Fulana Beltrana</p>
                         </v-carousel-item>
 
-                        <v-carousel-item><v-avatar class="d-lg-none" image="./fulana2.png" size="80"
+                        <v-carousel-item><v-avatar class="d-lg-none" image="/public/fulana2.png" size="80"
                                 :class="smAndDown ? 'mt-16' : ''"></v-avatar>
-                            <v-avatar class="d-none d-lg-block mt-16" image="./fulana2.png" size="180"></v-avatar>
+                            <v-avatar class="d-none d-lg-block mt-16" image="/public/fulana2.png" size="180"></v-avatar>
                             <p :class="smAndDown ? 'mt-4 pl-5 pr-5' : 'mt-5 text-h5 px-16 mx-16'">Lorem ipsum dolor sit amet
                                 consectetur adipiscing
                                 elit. Lorem
@@ -498,9 +498,9 @@
                             <p class="text-primary" :class="smAndDown ? 'mt-4' : 'mt-5 text-h5'">Fulana Beltrana</p>
                         </v-carousel-item>
 
-                        <v-carousel-item><v-avatar class="d-lg-none" image="./fulana3.png" size="80"
+                        <v-carousel-item><v-avatar class="d-lg-none" image="/public/fulana3.png" size="80"
                                 :class="smAndDown ? 'mt-16' : ''"></v-avatar>
-                            <v-avatar class="d-none d-lg-block mt-16" image="./fulana3.png" size="180"></v-avatar>
+                            <v-avatar class="d-none d-lg-block mt-16" image="/public/fulana3.png" size="180"></v-avatar>
                             <p :class="smAndDown ? 'mt-4 pl-5 pr-5' : 'mt-5 text-h5 px-16 mx-16'">Lorem ipsum dolor sit amet
                                 consectetur adipiscing
                                 elit. Lorem
@@ -513,7 +513,7 @@
             </div>
 
             <div>
-                <v-img src="./bloco8.png" :class="smAndDown ? 'w-100' : ''" />
+                <v-img src="/public/bloco8.png" :class="smAndDown ? 'w-100' : ''" />
             </div>
 
             <div class="d-flex justify-space-between bg-septenary" :class="smAndDown ? 'pt-16' : 'pt-16 pb-16'">
@@ -526,8 +526,8 @@
                             <p /><span class="spanbloco9">CONSULTA</span>
                         </p>
                     </div>
-                    <v-img src="./localizaçao.png" class="d-lg-none" :class="smAndUp ? 'w-75 mt-3' : 'w-75 mt-3'" />
-                    <v-img src="./localizaçao.png" class="d-none d-lg-block mt-3" width="420" />
+                    <v-img src="/public/localizaçao.png" class="d-lg-none" :class="smAndUp ? 'w-75 mt-3' : 'w-75 mt-3'" />
+                    <v-img src="/public/localizaçao.png" class="d-none d-lg-block mt-3" width="420" />
                     <p class="p1bloco9 text-quartiary text-lg-h5" :class="smAndUp ? 'text-h6 mt-3' : 'mt-3 pr-5'">Lorem
                         ipsum dolor sit amet
                         consectetur
@@ -556,7 +556,7 @@
                 </div>
 
                 <div align="center" :class="smAndDown ? 'w-100 pb-16' : 'w-50'">
-                    <v-img src="./clinica.jpg" cover />
+                    <v-img src="/public/clinica.jpg" cover />
                     <div :class="smAndDown ? '' : 'pr-10'">
                         <p class="p1bloco10 text-terciary text-lg-right text-lg-h5"
                             :class="smAndUp ? 'text-h6 mt-3' : 'mt-3'">Clinica Vivere Espaço Saúde</p>
@@ -583,7 +583,7 @@
             </div>
 
             <div>
-                <v-img src="./bloco8.png" :class="smAndDown ? 'w-100' : ''" />
+                <v-img src="/public/bloco8.png" :class="smAndDown ? 'w-100' : ''" />
             </div>
 
             <div>
@@ -595,8 +595,8 @@
                     </div>
 
                     <div :class="smAndDown ? 'w-25' : ''">
-                        <v-img src="logo.png" :class="smAndDown ? 'w-100' : 'w-0 h-0'" />
-                        <v-img class="d-none d-lg-block mr-5" src="./logo.png" width="250" />
+                        <v-img src="/public/logo.png" :class="smAndDown ? 'w-100' : 'w-0 h-0'" />
+                        <v-img class="d-none d-lg-block mr-5" src="/public/logo.png" width="250" />
                     </div>
                 </v-footer>
             </div>
