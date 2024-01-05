@@ -13,9 +13,26 @@
 
                     </div>
 
-                    <div class="bloco1tablet">
+                    
 
-                        <div class="d-lg-none">
+                        <div class="d-lg-none d-sm-none">
+                            <p class="text-sm-h4 text-lg-h2"
+                                :class="smAndDown ? 'ml-2 mt-3 text-body-2' : 'ml-10 mt-5 text-black'">CUIDE DA SUA SAÚDE
+                                COM
+                            <p></p>UMA <span class="textobloco1">ABORDAGEM EM<p></p>
+                                MEDICINA INTEGRATIVA</span></p>
+                            <p class="text-quartiary text-sm-h6 text-lg-h4"
+                                :class="smAndDown ? 'ml-2 text-body-2' : 'ml-10 mt-2'">
+                                Descubra a
+                                medicina
+                                integrativa
+                            <p class="d-lg-none"></p> que aborda sua saúde de forma<p class="d-lg-none"></p> ampla com a
+                            <span class="textobloco1">Ayurveda</span>,
+                            <p class="d-lg-none"></p>
+                            <span class="textobloco1">Nutrologia</span> e <span class="textobloco1">Fitoterapia</span>.</p>
+                        </div>
+
+                        <div class="d-none d-lg-none d-sm-block ml-8">
                             <p class="text-sm-h4 text-lg-h2"
                                 :class="smAndDown ? 'ml-2 mt-3 text-body-2' : 'ml-10 mt-5 text-black'">CUIDE DA SUA SAÚDE
                                 COM
@@ -49,9 +66,6 @@
                             <span class="textobloco1">Nutrologia</span> e <span class="textobloco1">Fitoterapia</span>.</p>
                         </div>
 
-
-
-
                         <div :class="smAndUp ? 'd-none' : 'w-50 '">
                             <v-btn size="small" class="bg-terciary rounded-xl text-primary"
                                 :class="smAndUp ? 'px-10' : 'mt-2 ml-2 pr-2 pl-2'">
@@ -59,7 +73,7 @@
                             </v-btn>
                         </div>
 
-                        <div class="d-lg-none" :class="smAndUp ? 'pt-3' : 'd-none'">
+                        <div class="d-lg-none ml-8" :class="smAndUp ? 'pt-3' : 'd-none'">
                             <v-btn size="x-large" class="bg-terciary rounded-xl text-primary">
                                 <p :class="smAndUp ? 'text-body-2' : ''">Agendar Consulta Integrativa</p>
                             </v-btn>
@@ -70,8 +84,7 @@
                                 <p class="text-h4">Agendar Consulta Integrativa</p>
                             </v-btn>
                         </div>
-                    </div>
-
+                    
                     <div class="divcyrobloco1 d-none d-lg-block mt-10 pl-16 ml-12 h-100" align="right">
                         <div class="cyrobloco1 bg-white w-50 pl-5 pt-5 h-100" align="left">
                             <p class="cyrop1bloco1 text-lg-h5">DR. CYRO VIDAL</p>
@@ -510,39 +523,64 @@
                 <v-img src="bloco8.png" :class="smAndDown ? 'w-100' : ''" />
             </div>
 
-            <div class="d-flex justify-space-between bg-septenary" :class="smAndDown ? 'pt-16' : ''">
-                <div :class="smAndDown ? 'pl-3' : ''">
-                    <p class="p1bloco9" :class="smAndUp ? 'text-body-2' : 'pt-3'">MELHORE SUA SAÚDE</p>
-                    <p :class="smAndUp ? 'text-h5' : ''">VERIFICAR HORÁRIOS DE <span class="spanbloco9">CONSULTA</span></p>
-                    <v-img src="localizaçao.png" :class="smAndUp ? 'w-75 mt-3' : 'w-75 mt-3'" />
-                    <p class="p1bloco9" :class="smAndUp ? 'text-h6 mt-3' : 'mt-3 pr-5'">Lorem ipsum dolor sit amet
+            <div class="d-flex justify-space-between bg-septenary" :class="smAndDown ? 'pt-16' : 'pt-16 pb-16'">
+                <div :class="smAndDown ? 'pl-3' : 'ml-10 mt-16'">
+                    <p class="p1bloco9 text-lg-h5 text-terciary" :class="smAndUp ? 'text-body-2' : 'pt-3'">MELHORE SUA SAÚDE
+                    </p>
+                    <div :class="smAndDown ? '' : 'mt-7'">
+                        <p class="text-lg-h2 text-terciary" :class="smAndUp ? 'text-h5' : ''">VERIFICAR
+                            <p /> HORÁRIOS DE
+                            <p /><span class="spanbloco9">CONSULTA</span>
+                        </p>
+                    </div>
+                    <v-img src="localizaçao.png" class="d-lg-none" :class="smAndUp ? 'w-75 mt-3' : 'w-75 mt-3'" />
+                    <v-img src="localizaçao.png" class="d-none d-lg-block mt-3" width="420" />
+                    <p class="p1bloco9 text-quartiary text-lg-h5" :class="smAndUp ? 'text-h6 mt-3' : 'mt-3 pr-5'">Lorem
+                        ipsum dolor sit amet
                         consectetur
-                        adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit</p>
+                    <p class="d-none d-lg-block"></p>
+                    adipiscing elit. Lorem ipsum dolor sit amet<p class="d-none d-lg-block"></p> consectetur adipiscing
+                    elit.</p>
 
                     <div align="left" :class="smAndUp ? 'd-none' : ''">
-                        <v-btn size="small" class="bg-terciary rounded-xl text-primary"
+                        <v-btn size="small" class="bg-terciary rounded-pill text-primary"
                             :class="smAndDown ? 'mt-3 pr-5 pl-5' : ''">
                             <p :class="smAndDown ? 'text-body-2' : ''">Horários</p>
                         </v-btn>
                     </div>
 
-                    <div :class="smAndUp ? 'mt-10' : 'd-none'">
-                        <v-btn size="large" class="bg-terciary rounded-xl text-primary">
-                            <p :class="smAndDown ? 'text-body-2 pl-16 pr-16' : ''">Consultar Horários</p>
+                    <div class="d-lg-none" :class="smAndUp ? 'mt-10' : 'd-none'">
+                        <v-btn size="large" class="bg-terciary rounded-pill text-primary">
+                            <p :class="smAndDown ? 'text-body-1 pl-16 pr-16' : ''">Verificar Horários</p>
+                        </v-btn>
+                    </div>
+
+                    <div class="d-none d-lg-block mt-10">
+                        <v-btn width="500" size="x-large" class="bg-terciary rounded-pill text-primary">
+                            <p class="p2bloco9 text-h6">VERIFICAR HORÁRIOS</p>
                         </v-btn>
                     </div>
                 </div>
 
-                <div align="center" :class="smAndDown ? 'w-100 pb-16' : ''">
-                    <v-img src="clinica.jpg" />
-                    <p class="p1bloco10" :class="smAndUp ? 'text-h6 mt-3' : 'mt-3'">Clinica Vivere Espaço Saúde</p>
-                    <p class="p2bloco10" :class="smAndUp ? 'text-body-2' : 'mt-1'">R. Cel. Auris Coelho, 521 - Lagoa Nova
-                    </p>
-                    <p class="p2bloco10" :class="smAndUp ? 'text-body-2' : 'mt-1'">Natal-RN, 59075-050</p>
-
-                    <div>
-                        <v-btn class="botaomapa bg-transparent rounded-xl" :class="smAndDown ? 'ml-2 mt-3 pl-5 pr-5' : ''">
+                <div align="center" :class="smAndDown ? 'w-100 pb-16' : 'w-50'">
+                    <v-img src="clinica.jpg" cover />
+                    <div :class="smAndDown ? '' : 'pr-10'">
+                        <p class="p1bloco10 text-terciary text-lg-right text-lg-h5"
+                            :class="smAndUp ? 'text-h6 mt-3' : 'mt-3'">Clinica Vivere Espaço Saúde</p>
+                        <p class="p2bloco10 text-lg-right text-terciary text-lg-body-1" :class="smAndUp ? 'text-body-2' : 'mt-1'">R. Cel. Auris Coelho, 521 - Lagoa
+                            Nova
+                        </p>
+                        <p class="p2bloco10 text-lg-right text-lg-body-1 text-terciary" :class="smAndUp ? 'text-body-2' : 'mt-1'">Natal-RN, 59075-050</p>
+                    </div>
+                    <div class="d-lg-none">
+                        <v-btn class="botaomapa bg-transparent rounded-pill" :class="smAndDown ? 'ml-2 mt-3 pl-5 pr-5' : ''">
                             <p :class="smAndDown ? 'text-body-2' : ''">Ver Mapa</p>
+                        </v-btn>
+                    </div>
+
+                    <div class="d-none d-lg-block mr-8 mt-2 pb-16 mb-16" align="right">
+                        <v-btn width="150" height="45" class="botaomapa bg-transparent rounded-pill">
+                            <p class="text-body-1">Ver Mapa</p>
                         </v-btn>
                     </div>
                 </div>
@@ -554,20 +592,18 @@
 
             <div>
                 <v-footer class="d-flex justify-space-between">
-                    <div>
-                        <v-icon icon="mdi-account" siza="x-small" color="black"></v-icon>
-                        <v-icon :class="smAndDown ? 'px-5' : ''" icon="mdi-account" siza="x-small" color="black"></v-icon>
-                        <v-icon icon="mdi-account" siza="x-small" color="black"></v-icon>
+                    <div :class="smAndDown ? '' : 'pl-5'">
+                        <v-icon icon="mdi-account"  color="black"></v-icon>
+                        <v-icon :class="smAndDown ? 'px-5' : ''" icon="mdi-account"  color="black"></v-icon>
+                        <v-icon icon="mdi-account"  color="black"></v-icon>
                     </div>
 
-                    <div :class="smAndDown ? 'w-25' : ''">
-                        <v-img src="logo.png" :class="smAndDown ? '' : ''" />
+                      <div  :class="smAndDown ? 'w-25' : ''">
+                        <v-img src="logo.png" :class="smAndDown ? 'w-100' : 'w-0 h-0'" />
+                        <v-img class="d-none d-lg-block mr-5"  src="logo.png" width="250" />
                     </div>
                 </v-footer>
             </div>
-
-
-
             <AppBar />
         </v-main>
     </v-app>
@@ -664,6 +700,10 @@
     font-size: 8px;
 }
 
+.p2bloco9 {
+    font-weight: 700;
+}
+
 .spanbloco9 {
     font-weight: 700;
 }
@@ -675,18 +715,6 @@
 
 .p2bloco10 {
     font-size: 10px;
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-
-    .bloco1tablet {
-        position: relative;
-        left: 30px;
-
-    }
-
-
-
 }
 </style>
   
