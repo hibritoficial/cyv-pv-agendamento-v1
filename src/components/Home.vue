@@ -12,79 +12,76 @@
                         </div>
 
                     </div>
+                    <div class="d-lg-none d-sm-none">
+                        <p class="text-sm-h4 text-lg-h2"
+                            :class="smAndDown ? 'ml-2 mt-3 text-body-2' : 'ml-10 mt-5 text-black'">CUIDE DA SUA SAÚDE
+                            COM
+                        <p></p>UMA <span class="textobloco1">ABORDAGEM EM<p></p>
+                            MEDICINA INTEGRATIVA</span></p>
+                        <p class="text-quartiary text-sm-h6 text-lg-h4"
+                            :class="smAndDown ? 'ml-2 text-body-2' : 'ml-10 mt-2'">
+                            Descubra a
+                            medicina
+                            integrativa
+                        <p class="d-lg-none"></p> que aborda sua saúde de forma<p class="d-lg-none"></p> ampla com a
+                        <span class="textobloco1">Ayurveda</span>,
+                        <p class="d-lg-none"></p>
+                        <span class="textobloco1">Nutrologia</span> e <span class="textobloco1">Fitoterapia</span>.</p>
+                    </div>
 
-                    
-
-                        <div class="d-lg-none d-sm-none">
-                            <p class="text-sm-h4 text-lg-h2"
-                                :class="smAndDown ? 'ml-2 mt-3 text-body-2' : 'ml-10 mt-5 text-black'">CUIDE DA SUA SAÚDE
-                                COM
-                            <p></p>UMA <span class="textobloco1">ABORDAGEM EM<p></p>
-                                MEDICINA INTEGRATIVA</span></p>
-                            <p class="text-quartiary text-sm-h6 text-lg-h4"
-                                :class="smAndDown ? 'ml-2 text-body-2' : 'ml-10 mt-2'">
-                                Descubra a
-                                medicina
-                                integrativa
-                            <p class="d-lg-none"></p> que aborda sua saúde de forma<p class="d-lg-none"></p> ampla com a
-                            <span class="textobloco1">Ayurveda</span>,
-                            <p class="d-lg-none"></p>
-                            <span class="textobloco1">Nutrologia</span> e <span class="textobloco1">Fitoterapia</span>.</p>
-                        </div>
-
-                        <div class="d-none d-lg-none d-sm-block ml-8">
-                            <p class="text-sm-h4 text-lg-h2"
-                                :class="smAndDown ? 'ml-2 mt-3 text-body-2' : 'ml-10 mt-5 text-black'">CUIDE DA SUA SAÚDE
-                                COM
-                            <p></p>UMA <span class="textobloco1">ABORDAGEM EM<p></p>
-                                MEDICINA INTEGRATIVA</span></p>
-                            <p class="text-quartiary text-sm-h6 text-lg-h4"
-                                :class="smAndDown ? 'ml-2 text-body-2' : 'ml-10 mt-2'">
-                                Descubra a
-                                medicina
-                                integrativa
-                            <p class="d-lg-none"></p> que aborda sua saúde de forma<p class="d-lg-none"></p> ampla com a
-                            <span class="textobloco1">Ayurveda</span>,
-                            <p class="d-lg-none"></p>
-                            <span class="textobloco1">Nutrologia</span> e <span class="textobloco1">Fitoterapia</span>.</p>
-                        </div>
+                    <div class="d-none d-lg-none d-sm-block ml-8">
+                        <p class="text-sm-h4 text-lg-h2"
+                            :class="smAndDown ? 'ml-2 mt-3 text-body-2' : 'ml-10 mt-5 text-black'">CUIDE DA SUA SAÚDE
+                            COM
+                        <p></p>UMA <span class="textobloco1">ABORDAGEM EM<p></p>
+                            MEDICINA INTEGRATIVA</span></p>
+                        <p class="text-quartiary text-sm-h6 text-lg-h4"
+                            :class="smAndDown ? 'ml-2 text-body-2' : 'ml-10 mt-2'">
+                            Descubra a
+                            medicina
+                            integrativa
+                        <p class="d-lg-none"></p> que aborda sua saúde de forma<p class="d-lg-none"></p> ampla com a
+                        <span class="textobloco1">Ayurveda</span>,
+                        <p class="d-lg-none"></p>
+                        <span class="textobloco1">Nutrologia</span> e <span class="textobloco1">Fitoterapia</span>.</p>
+                    </div>
 
 
-                        <div class="d-none d-lg-block">
-                            <p class="text-sm-h4 text-lg-h2 ml-10 mt-5 text-black">CUIDE DA SUA SAÚDE COM
-                            <p></p>UMA <span class="textobloco1">ABORDAGEM EM<p></p>
-                                MEDICINA INTEGRATIVA</span></p>
-                            <p class="text-quartiary text-sm-h6 text-lg-h4 ml-10 mt-4">
-                                Descubra o poder da
-                                medicina
-                                integrativa
-                            <p class="d-lg-none"></p> que
-                            <p /> aborda sua saúde de forma<p class="d-lg-none"></p> ampla com a
-                            <p />
-                            <span class="textobloco1">Ayurveda</span>,
-                            <p class="d-lg-none"></p>
-                            <span class="textobloco1">Nutrologia</span> e <span class="textobloco1">Fitoterapia</span>.</p>
-                        </div>
+                    <div class="d-none d-lg-block">
+                        <p class="text-sm-h4 text-lg-h2 ml-10 mt-5 text-black">CUIDE DA SUA SAÚDE COM
+                        <p></p>UMA <span class="textobloco1">ABORDAGEM EM<p></p>
+                            MEDICINA INTEGRATIVA</span></p>
+                        <p class="text-quartiary text-sm-h6 text-lg-h4 ml-10 mt-4">
+                            Descubra o poder da
+                            medicina
+                            integrativa
+                        <p class="d-lg-none"></p> que
+                        <p /> aborda sua saúde de forma<p class="d-lg-none"></p> ampla com a
+                        <p />
+                        <span class="textobloco1">Ayurveda</span>,
+                        <p class="d-lg-none"></p>
+                        <span class="textobloco1">Nutrologia</span> e <span class="textobloco1">Fitoterapia</span>.</p>
+                    </div>
 
-                        <div :class="smAndUp ? 'd-none' : 'w-50 '">
-                            <v-btn size="small" class="bg-terciary rounded-xl text-primary"
-                                :class="smAndUp ? 'px-10' : 'mt-2 ml-2 pr-2 pl-2'">
-                                <p :class="smAndUp ? 'text-h6' : 'text-body-2'">Agendar Consulta</p>
-                            </v-btn>
-                        </div>
+                    <div :class="smAndUp ? 'd-none' : 'w-50 '">
+                        <v-btn size="small" class="bg-terciary rounded-xl text-primary"
+                            :class="smAndUp ? 'px-10' : 'mt-2 ml-2 pr-2 pl-2'">
+                            <p :class="smAndUp ? 'text-h6' : 'text-body-2'">Agendar Consulta</p>
+                        </v-btn>
+                    </div>
 
-                        <div class="d-lg-none ml-8" :class="smAndUp ? 'pt-3' : 'd-none'">
-                            <v-btn size="x-large" class="bg-terciary rounded-xl text-primary">
-                                <p :class="smAndUp ? 'text-body-2' : ''">Agendar Consulta Integrativa</p>
-                            </v-btn>
-                        </div>
+                    <div class="d-lg-none ml-8" :class="smAndUp ? 'pt-3' : 'd-none'">
+                        <v-btn size="x-large" class="bg-terciary rounded-xl text-primary">
+                            <p :class="smAndUp ? 'text-body-2' : ''">Agendar Consulta Integrativa</p>
+                        </v-btn>
+                    </div>
 
-                        <div class="d-none d-lg-block mt-16">
-                            <v-btn height="100" width="600" class="bg-terciary rounded-pill text-primary pl-16 pr-16 ml-10">
-                                <p class="text-h4">Agendar Consulta Integrativa</p>
-                            </v-btn>
-                        </div>
-                    
+                    <div class="d-none d-lg-block mt-16">
+                        <v-btn height="100" width="600" class="bg-terciary rounded-pill text-primary pl-16 pr-16 ml-10">
+                            <p class="text-h4">Agendar Consulta Integrativa</p>
+                        </v-btn>
+                    </div>
+
                     <div class="divcyrobloco1 d-none d-lg-block mt-10 pl-16 ml-12 h-100" align="right">
                         <div class="cyrobloco1 bg-white w-50 pl-5 pt-5 h-100" align="left">
                             <p class="cyrop1bloco1 text-lg-h5">DR. CYRO VIDAL</p>
@@ -103,7 +100,6 @@
                     </div>
                 </v-img>
             </div>
-
 
             <div class="bg-secondary" align="center" :class="smAndDown ? 'pb-16' : 'pt-16'">
                 <div :class="smAndDown ? 'pt-10' : 'pt-16'">
@@ -367,8 +363,6 @@
                     <v-img class="rounded-xl" src="fotocard3.png" width="450" />
                 </div>
 
-
-
                 <div :class="smAndDown ? 'mr-2 mt-7 pr-2 pb-10' : 'mr-16 pr-16 mt-16 ml-16 pt-5 pb-16 mb-16'">
                     <div :class="smAndUp ? 'ml-16' : ''">
                         <p class="p1card1 text-quinary" :class="smAndDown ? 'pr-1 pl-1' : 'text-h6'">DESCUBRA O PODER DA</p>
@@ -423,7 +417,6 @@
 
             <div class="d-flex justify-space-between" :class="smAndDown ? 'w-100' : 'w-75'">
                 <v-img src="cyro2.png" cover></v-img>
-
 
                 <div class="text-terciary" :class="smAndDown ? 'pl-3 w-50 mb-2 pt-5' : 'mt-16 ml-10 pr-10 mb-10'">
                     <div :class="smAndUp ? 'pl-3 mb-5' : ''">
@@ -567,13 +560,16 @@
                     <div :class="smAndDown ? '' : 'pr-10'">
                         <p class="p1bloco10 text-terciary text-lg-right text-lg-h5"
                             :class="smAndUp ? 'text-h6 mt-3' : 'mt-3'">Clinica Vivere Espaço Saúde</p>
-                        <p class="p2bloco10 text-lg-right text-terciary text-lg-body-1" :class="smAndUp ? 'text-body-2' : 'mt-1'">R. Cel. Auris Coelho, 521 - Lagoa
+                        <p class="p2bloco10 text-lg-right text-terciary text-lg-body-1"
+                            :class="smAndUp ? 'text-body-2' : 'mt-1'">R. Cel. Auris Coelho, 521 - Lagoa
                             Nova
                         </p>
-                        <p class="p2bloco10 text-lg-right text-lg-body-1 text-terciary" :class="smAndUp ? 'text-body-2' : 'mt-1'">Natal-RN, 59075-050</p>
+                        <p class="p2bloco10 text-lg-right text-lg-body-1 text-terciary"
+                            :class="smAndUp ? 'text-body-2' : 'mt-1'">Natal-RN, 59075-050</p>
                     </div>
                     <div class="d-lg-none">
-                        <v-btn class="botaomapa bg-transparent rounded-pill" :class="smAndDown ? 'ml-2 mt-3 pl-5 pr-5' : ''">
+                        <v-btn class="botaomapa bg-transparent rounded-pill"
+                            :class="smAndDown ? 'ml-2 mt-3 pl-5 pr-5' : ''">
                             <p :class="smAndDown ? 'text-body-2' : ''">Ver Mapa</p>
                         </v-btn>
                     </div>
@@ -593,14 +589,14 @@
             <div>
                 <v-footer class="d-flex justify-space-between">
                     <div :class="smAndDown ? '' : 'pl-5'">
-                        <v-icon icon="mdi-account"  color="black"></v-icon>
-                        <v-icon :class="smAndDown ? 'px-5' : ''" icon="mdi-account"  color="black"></v-icon>
-                        <v-icon icon="mdi-account"  color="black"></v-icon>
+                        <v-icon icon="mdi-account" color="black"></v-icon>
+                        <v-icon :class="smAndDown ? 'px-5' : ''" icon="mdi-account" color="black"></v-icon>
+                        <v-icon icon="mdi-account" color="black"></v-icon>
                     </div>
 
-                      <div  :class="smAndDown ? 'w-25' : ''">
+                    <div :class="smAndDown ? 'w-25' : ''">
                         <v-img src="logo.png" :class="smAndDown ? 'w-100' : 'w-0 h-0'" />
-                        <v-img class="d-none d-lg-block mr-5"  src="logo.png" width="250" />
+                        <v-img class="d-none d-lg-block mr-5" src="logo.png" width="250" />
                     </div>
                 </v-footer>
             </div>
