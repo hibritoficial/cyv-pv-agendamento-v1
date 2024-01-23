@@ -13,12 +13,12 @@
 
                     </div>
                     <div class="d-lg-none d-sm-none">
-                        <p class="text-sm-h4 text-lg-h2"
+                        <p class="font1 text-sm-h4 text-lg-h2"
                             :class="smAndDown ? 'ml-2 mt-3 text-body-2' : 'ml-10 mt-5 text-black'">CUIDE DA SUA SAÚDE
                             COM
                         <p></p>UMA <span class="textobloco1">ABORDAGEM EM<p></p>
                             MEDICINA INTEGRATIVA</span></p>
-                        <p class="text-quartiary text-sm-h6 text-lg-h4"
+                        <p class="font4 text-quartiary text-sm-h6 text-lg-h4"
                             :class="smAndDown ? 'ml-2 text-body-2' : 'ml-10 mt-2'">
                             Descubra a
                             medicina
@@ -35,7 +35,7 @@
                             COM
                         <p></p>UMA <span class="textobloco1">ABORDAGEM EM<p></p>
                             MEDICINA INTEGRATIVA</span></p>
-                        <p class="text-quartiary text-sm-h6 text-lg-h4"
+                        <p class="text-quartiary font4 text-sm-h6 text-lg-h4"
                             :class="smAndDown ? 'ml-2 text-body-2' : 'ml-10 mt-2'">
                             Descubra a
                             medicina
@@ -51,7 +51,7 @@
                         <p class="text-sm-h4 text-lg-h2 ml-10 mt-5 text-black">CUIDE DA SUA SAÚDE COM
                         <p></p>UMA <span class="textobloco1">ABORDAGEM EM<p></p>
                             MEDICINA INTEGRATIVA</span></p>
-                        <p class="text-quartiary text-sm-h6 text-lg-h4 ml-10 mt-4">
+                        <p class="text-quartiary font4 text-sm-h6 text-lg-h4 ml-10 mt-4" style="line-height: 50px;">
                             Descubra o poder da
                             medicina
                             integrativa
@@ -63,38 +63,38 @@
                         <span class="textobloco1">Nutrologia</span> e <span class="textobloco1">Fitoterapia</span>.</p>
                     </div>
 
-                    <div :class="smAndUp ? 'd-none' : 'w-50 '">
-                        <v-btn size="small" class="bg-terciary rounded-xl text-primary"
+                    <div :class="smAndUp ? 'd-none' : 'w-50'">
+                        <v-btn size="small" class="font2 bg-terciary rounded-xl text-primary"
                             :class="smAndUp ? 'px-10' : 'mt-2 ml-2 pr-2 pl-2'">
                             <p :class="smAndUp ? 'text-h6' : 'text-body-2'">Agendar Consulta</p>
                         </v-btn>
                     </div>
 
                     <div class="d-lg-none ml-8" :class="smAndUp ? 'pt-3' : 'd-none'">
-                        <v-btn size="x-large" class="bg-terciary rounded-xl text-primary">
+                        <v-btn size="x-large" class="font2 bg-terciary rounded-xl text-primary">
                             <p :class="smAndUp ? 'text-body-2' : ''">Agendar Consulta Integrativa</p>
                         </v-btn>
                     </div>
 
                     <div class="d-none d-lg-block mt-16">
-                        <v-btn height="100" width="600" class="bg-terciary rounded-pill text-primary pl-16 pr-16 ml-10">
+                        <v-btn height="100" width="600" class="font2 bg-terciary rounded-pill text-primary pl-16 pr-16 ml-10">
                             <p class="text-h4">Agendar Consulta Integrativa</p>
                         </v-btn>
                     </div>
 
-                    <div class="divcyrobloco1 d-none d-lg-block mt-10 pl-16 ml-12 h-100" align="right">
-                        <div class="cyrobloco1 bg-white w-50 pl-5 pt-5 h-100" align="left">
+                    <div class="divcyrobloco1 d-none d-lg-block d-md-block mt-10 pl-16 ml-12 h-100" align="right">
+                        <div class="cyrobloco1 text-quartiary bg-white w-50 pl-5 pt-5 h-100" align="left">
                             <p class="cyrop1bloco1 text-lg-h5">DR. CYRO VIDAL</p>
-                            <p class="cyrop2bloco1 text-lg-h6">Médico Especialista em Nutrologia, Ayurveda, Fitoterapia e
+                            <p class="cyrop2bloco1 font3 text-lg-h6">Médico Especialista em Nutrologia, Ayurveda, Fitoterapia e
                                 Acupuntura
                             </p>
                         </div>
                     </div>
 
                     <div class="divcyrobloco1" align="right" :class="mdAndUp ? 'd-none' : ''">
-                        <div class="cyrobloco1 bg-white w-50 pl-5" align="left" :class="smAndUp ? 'py-3' : 'd-none'">
+                        <div class="cyrobloco1 text-quartiary bg-white w-50 pl-5" align="left" :class="smAndUp ? 'py-3' : 'd-none'">
                             <p class="cyrop1bloco1">DR. CYRO VIDAL</p>
-                            <p class="cyrop2bloco1">Médico Especialista em Nutrologia, Ayurveda, Fitoterapia e Acupuntura
+                            <p class="cyrop2bloco1 font3">Médico Especialista em Nutrologia, Ayurveda, Fitoterapia e Acupuntura
                             </p>
                         </div>
                     </div>
@@ -606,6 +606,23 @@
 </template>
   
 <style scoped>
+
+.font1 {
+ font-family: "Poppins-Regular", "Poppins", sans-serif;
+}
+.font2 {
+font-family: "Roboto", sans-serif;
+}
+
+.font3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+.font4 {
+font-family: "Poppins-Regular", "Poppins", sans-serif;
+font-weight: 300;
+}
 .textobloco1 {
     font-weight: 700;
 }
