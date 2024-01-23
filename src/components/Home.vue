@@ -14,9 +14,9 @@
                     </div>
                     <div class="d-lg-none d-sm-none">
                         <p class="font1 text-sm-h4 text-lg-h2"
-                            :class="smAndDown ? 'ml-2 mt-3 text-body-2' : 'ml-10 mt-5 text-black'">CUIDE DA SUA SAÚDE
+                            :class="smAndDown ? 'ml-2 mt-3 text-body-2 font-weight-light' : 'ml-10 mt-5 text-black'">CUIDE DA SUA SAÚDE
                             COM
-                        <p></p>UMA <span class="textobloco1">ABORDAGEM EM<p></p>
+                        <p></p>UMA <span class="font-weight-medium">ABORDAGEM EM<p></p>
                             MEDICINA INTEGRATIVA</span></p>
                         <p class="font4 text-quartiary text-sm-h6 text-lg-h4"
                             :class="smAndDown ? 'ml-2 text-body-2' : 'ml-10 mt-2'">
@@ -24,16 +24,16 @@
                             medicina
                             integrativa
                         <p class="d-lg-none"></p> que aborda sua saúde de forma<p class="d-lg-none"></p> ampla com a
-                        <span class="textobloco1">Ayurveda</span>,
+                        <span class="font-weight-medium">Ayurveda</span>,
                         <p class="d-lg-none"></p>
-                        <span class="textobloco1">Nutrologia</span> e <span class="textobloco1">Fitoterapia</span>.</p>
+                        <span class="font-weight-medium">Nutrologia</span> e <span class="font-weight-medium">Fitoterapia</span>.</p>
                     </div>
 
                     <div class="d-none d-lg-none d-sm-block ml-8">
                         <p class="text-sm-h4 text-lg-h2"
-                            :class="smAndDown ? 'ml-2 mt-3 text-body-2' : 'ml-10 mt-5 text-black'">CUIDE DA SUA SAÚDE
+                            :class="smAndDown ? 'ml-2 mt-3 text-body-2 font-weight-light' : 'ml-10 mt-5 text-black'">CUIDE DA SUA SAÚDE
                             COM
-                        <p></p>UMA <span class="textobloco1">ABORDAGEM EM<p></p>
+                        <p></p>UMA <span class="font-weight-medium">ABORDAGEM EM<p></p>
                             MEDICINA INTEGRATIVA</span></p>
                         <p class="text-quartiary font4 text-sm-h6 text-lg-h4"
                             :class="smAndDown ? 'ml-2 text-body-2' : 'ml-10 mt-2'">
@@ -41,15 +41,15 @@
                             medicina
                             integrativa
                         <p class="d-lg-none"></p> que aborda sua saúde de forma<p class="d-lg-none"></p> ampla com a
-                        <span class="textobloco1">Ayurveda</span>,
+                        <span class="font-weight-medium">Ayurveda</span>,
                         <p class="d-lg-none"></p>
-                        <span class="textobloco1">Nutrologia</span> e <span class="textobloco1">Fitoterapia</span>.</p>
+                        <span class="font-weight-medium">Nutrologia</span> e <span class="font-weight-medium">Fitoterapia</span>.</p>
                     </div>
 
 
                     <div class="d-none d-lg-block">
-                        <p class="text-sm-h4 text-lg-h2 ml-10 mt-5 text-black">CUIDE DA SUA SAÚDE COM
-                        <p></p>UMA <span class="textobloco1">ABORDAGEM EM<p></p>
+                        <p class="text-sm-h4 text-lg-h2 ml-10 mt-5 text-black font-weight-light">CUIDE DA SUA SAÚDE COM
+                        <p></p>UMA <span class="font-weight-medium">ABORDAGEM EM<p></p>
                             MEDICINA INTEGRATIVA</span></p>
                         <p class="text-quartiary font4 text-sm-h6 text-lg-h4 ml-10 mt-4" style="line-height: 50px;">
                             Descubra o poder da
@@ -58,9 +58,9 @@
                         <p class="d-lg-none"></p> que
                         <p /> aborda sua saúde de forma<p class="d-lg-none"></p> ampla com a
                         <p />
-                        <span class="textobloco1">Ayurveda</span>,
+                        <span class="font-weight-medium">Ayurveda</span>,
                         <p class="d-lg-none"></p>
-                        <span class="textobloco1">Nutrologia</span> e <span class="textobloco1">Fitoterapia</span>.</p>
+                        <span class="font-weight-medium">Nutrologia</span> e <span class="font-weight-medium">Fitoterapia</span>.</p>
                     </div>
 
                     <div :class="smAndUp ? 'd-none' : 'w-50'">
@@ -622,9 +622,6 @@ font-family: "Roboto", sans-serif;
 .font4 {
 font-family: "Poppins-Regular", "Poppins", sans-serif;
 font-weight: 300;
-}
-.textobloco1 {
-    font-weight: 700;
 }
 
 .cyrobloco1 {
