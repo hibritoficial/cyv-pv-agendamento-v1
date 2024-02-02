@@ -8,13 +8,15 @@
                         <v-img src="/public/localizaçao.png" :class="smAndDown ? 'w-0 h-0' : 'w-0'" />
 
                         <div class="d-none d-sm-block">
-                            <v-img src="/public/localizaçao.png" :class="lgAndUp ? 'w-50 ml-10 mt-10' : 'w-50 ml-10 mt-10'" />
+                            <v-img src="/public/localizaçao.png"
+                                :class="lgAndUp ? 'w-50 ml-10 mt-10' : 'w-50 ml-10 mt-10'" />
                         </div>
 
                     </div>
                     <div class="d-lg-none d-sm-none">
                         <p class="font1 text-sm-h4 text-lg-h2"
-                            :class="smAndDown ? 'ml-2 mt-3 text-body-2 font-weight-light' : 'ml-10 mt-5 text-black'">CUIDE DA SUA SAÚDE
+                            :class="smAndDown ? 'ml-2 mt-3 text-body-2 font-weight-light' : 'ml-10 mt-5 text-black'">CUIDE
+                            DA SUA SAÚDE
                             COM
                         <p></p>UMA <span class="font-weight-medium">ABORDAGEM EM<p></p>
                             MEDICINA INTEGRATIVA</span></p>
@@ -26,12 +28,14 @@
                         <p class="d-lg-none"></p> que aborda sua saúde de forma<p class="d-lg-none"></p> ampla com a
                         <span class="font-weight-medium">Ayurveda</span>,
                         <p class="d-lg-none"></p>
-                        <span class="font-weight-medium">Nutrologia</span> e <span class="font-weight-medium">Fitoterapia</span>.</p>
+                        <span class="font-weight-medium">Nutrologia</span> e <span
+                            class="font-weight-medium">Fitoterapia</span>.</p>
                     </div>
 
                     <div class="d-none d-lg-none d-sm-block ml-8">
                         <p class="text-sm-h4 text-lg-h2"
-                            :class="smAndDown ? 'ml-2 mt-3 text-body-2 font-weight-light' : 'ml-10 mt-5 text-black'">CUIDE DA SUA SAÚDE
+                            :class="smAndDown ? 'ml-2 mt-3 text-body-2 font-weight-light' : 'ml-10 mt-5 text-black'">CUIDE
+                            DA SUA SAÚDE
                             COM
                         <p></p>UMA <span class="font-weight-medium">ABORDAGEM EM<p></p>
                             MEDICINA INTEGRATIVA</span></p>
@@ -43,7 +47,8 @@
                         <p class="d-lg-none"></p> que aborda sua saúde de forma<p class="d-lg-none"></p> ampla com a
                         <span class="font-weight-medium">Ayurveda</span>,
                         <p class="d-lg-none"></p>
-                        <span class="font-weight-medium">Nutrologia</span> e <span class="font-weight-medium">Fitoterapia</span>.</p>
+                        <span class="font-weight-medium">Nutrologia</span> e <span
+                            class="font-weight-medium">Fitoterapia</span>.</p>
                     </div>
 
 
@@ -60,7 +65,8 @@
                         <p />
                         <span class="font-weight-medium">Ayurveda</span>,
                         <p class="d-lg-none"></p>
-                        <span class="font-weight-medium">Nutrologia</span> e <span class="font-weight-medium">Fitoterapia</span>.</p>
+                        <span class="font-weight-medium">Nutrologia</span> e <span
+                            class="font-weight-medium">Fitoterapia</span>.</p>
                     </div>
 
                     <div :class="smAndUp ? 'd-none' : 'w-50'">
@@ -71,30 +77,47 @@
                     </div>
 
                     <div class="d-lg-none ml-8" :class="smAndUp ? 'pt-3' : 'd-none'">
-                        <v-btn size="x-large" class="font2 bg-terciary rounded-xl text-primary">
+                        <v-btn size="x-large" class="font2 d-md-none bg-terciary rounded-xl text-primary">
+                            <p :class="smAndUp ? 'text-body-2' : ''">Agendar Consulta Integrativa</p>
+                        </v-btn>
+
+                        <v-btn size="x-large" class="font2 d-none d-md-block ml-9 bg-terciary rounded-xl text-primary  ">
                             <p :class="smAndUp ? 'text-body-2' : ''">Agendar Consulta Integrativa</p>
                         </v-btn>
                     </div>
 
                     <div class="d-none d-lg-block mt-16">
-                        <v-btn height="100" width="600" class="font2 bg-terciary rounded-pill text-primary pl-16 pr-16 ml-10">
+                        <v-btn height="100" width="600"
+                            class="font2 bg-terciary rounded-pill text-primary pl-16 pr-16 ml-10">
                             <p class="text-h4">Agendar Consulta Integrativa</p>
                         </v-btn>
                     </div>
 
-                    <div class="divcyrobloco1 d-none d-lg-block d-md-block mt-10 pl-16 ml-12 h-100" align="right">
-                        <div class="cyrobloco1 text-quartiary bg-white w-50 pl-5 pt-5 h-100" align="left">
+                    <div class="divcyrobloco1 d-none d-lg-block  mt-10 pl-16 ml-12 h-100" align="right">
+                        <div class="cyrobloco1 text-quartiary bg-white w-50 pl-5 py-5" align="left">
                             <p class="cyrop1bloco1 text-lg-h5">DR. CYRO VIDAL</p>
-                            <p class="cyrop2bloco1 font3 text-lg-h6">Médico Especialista em Nutrologia, Ayurveda, Fitoterapia e
+                            <p class="cyrop2bloco1 font3 text-lg-h6">Médico Especialista em Nutrologia, Ayurveda,
+                                Fitoterapia e
                                 Acupuntura
                             </p>
                         </div>
                     </div>
 
                     <div class="divcyrobloco1" align="right" :class="mdAndUp ? 'd-none' : ''">
-                        <div class="cyrobloco1 text-quartiary bg-white w-50 pl-5" align="left" :class="smAndUp ? 'py-3' : 'd-none'">
+                        <div class="cyrobloco1 text-quartiary bg-white w-50 pl-5" align="left"
+                            :class="smAndUp ? 'py-3' : 'd-none'">
                             <p class="cyrop1bloco1">DR. CYRO VIDAL</p>
-                            <p class="cyrop2bloco1 font3">Médico Especialista em Nutrologia, Ayurveda, Fitoterapia e Acupuntura
+                            <p class="cyrop2bloco1 font3">Médico Especialista em Nutrologia, Ayurveda, Fitoterapia e
+                                Acupuntura
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="divcyrobloco1 d-none d-md-block d-lg-none" align="right">
+                        <div class="cyrobloco1 text-quartiary bg-white w-50 pl-5 py-5 mt-2" align="left">
+                            <p class="cyrop1bloco1">DR. CYRO VIDAL</p>
+                            <p class="cyrop2bloco1 font3">Médico Especialista em Nutrologia, Ayurveda, Fitoterapia e
+                                Acupuntura
                             </p>
                         </div>
                     </div>
@@ -103,12 +126,12 @@
 
             <div class="bg-secondary" align="center" :class="smAndDown ? 'pb-16' : 'pt-16'">
                 <div :class="smAndDown ? 'pt-10' : 'pt-16'">
-                    <p class="textobloco2 text-lg-h6">DESCUBRA O PODER DA <span class="text-primary">MEDICINA
+                    <p class="textobloco2 text-lg-h6 text-md-h6">DESCUBRA O PODER DA <span class="text-primary">MEDICINA
                             INTEGRATIVA</span></p>
-                    <p class="paragrafobloco2 text-sm-h5 text-lg-h3" :class="smAndDown ? '' : 'mt-3'"><span
+                    <p class="paragrafobloco2 text-sm-h5 text-lg-h3 text-md-h3" :class="smAndDown ? '' : 'mt-3'"><span
                             class="text-primary">3 ESPECIALIDADES EM</span> UMA
                     <p></p> ÚNICA CONSULTA</p>
-                    <p class="textobloco2 text-lg-h6" :class="smAndDown ? 'ml-8' : 'ml-16 pl-5'">Saúde e qualidade de vida
+                    <p class="textobloco2 text-lg-h6 text-md-h6" :class="smAndDown ? 'ml-8' : 'ml-16 pl-5'">Saúde e qualidade de vida
                         em nivel de
                         excelência.</p>
                 </div>
@@ -135,15 +158,22 @@
                             </div>
 
                             <div :class="smAndUp ? 'd-none' : ''">
-                                <v-btn class="botaocards bg-transparent rounded-pill" :class="smAndDown ? 'mt-5 mb-5' : ''">
+                                <v-btn class="botaocards bg-transparent rounded-pill" href="#especi1" :class="smAndDown ? 'mt-5 mb-5' : ''">
                                     <p class="text-terciary" :class="smAndDown ? 'text-body-2' : ''">Detalhes</p>
                                 </v-btn>
                             </div>
 
-                            <div :class="smAndUp ? '' : 'd-none'">
-                                <v-btn class="botaocards bg-transparent rounded-pill" height="60" width="300"
+                            <div class="d-md-none d-lg-block" :class="smAndUp ? '' : 'd-none'">
+                                <v-btn class="botaocards bg-transparent rounded-pill" href="#especi1" height="60" width="300"
                                     :class="smAndDown ? 'mt-5 mb-5 w-50' : 'mt-10 mb-10'">
                                     <p class="text-terciary" :class="smAndDown ? 'text-body-2' : 'text-h6'"> Ver Detalhes
+                                    </p>
+                                </v-btn>
+                            </div>
+
+                            <div class="d-none d-md-block d-lg-none" :class="smAndUp ? '' : 'd-none'">
+                                <v-btn class="botaocards bg-transparent rounded-pill mt-10 mb-10" href="#especi1" height="60" width="180">
+                                    <p class="text-terciary" :class="smAndDown ? 'text-body-2' : 'text-h6'"> Ver Detalhe
                                     </p>
                                 </v-btn>
                             </div>
@@ -170,21 +200,24 @@
                             </div>
 
                             <div :class="smAndUp ? 'd-none' : ''">
-                                <v-btn class="botaocards bg-transparent rounded-pill" :class="smAndDown ? 'mt-5 mb-5' : ''">
+                                <v-btn class="botaocards bg-transparent rounded-pill" href="#especi2" :class="smAndDown ? 'mt-5 mb-5' : ''">
                                     <p class="text-terciary" :class="smAndDown ? 'text-body-2' : ''">Detalhes</p>
                                 </v-btn>
                             </div>
 
-                            <div :class="smAndUp ? '' : 'd-none'">
-                                <v-btn class="botaocards bg-transparent rounded-pill" height="60" width="300"
+                            <div class="d-md-none d-lg-block" :class="smAndUp ? '' : 'd-none'">
+                                <v-btn class="botaocards bg-transparent rounded-pill" href="#especi2" height="60" width="300"
                                     :class="smAndDown ? 'mt-5 mb-5 w-50' : 'mt-10 mb-10'">
                                     <p class="text-terciary" :class="smAndDown ? 'text-body-2' : 'text-h6'"> Ver Detalhes
                                     </p>
                                 </v-btn>
                             </div>
 
-                            <div>
-
+                            <div class=" d-none d-md-block d-lg-none">
+                                <v-btn class="botaocards bg-transparent rounded-pill mt-10 mb-10" href="#especi2" height="60" width="180">
+                                    <p class="text-terciary" :class="smAndDown ? 'text-body-2' : 'text-h6'"> Ver Detalhes
+                                    </p>
+                                </v-btn>
                             </div>
                         </v-card>
                     </div>
@@ -205,14 +238,21 @@
                             </div>
 
                             <div :class="smAndUp ? 'd-none' : ''">
-                                <v-btn class="botaocards bg-transparent rounded-pill" :class="smAndDown ? 'mt-5 mb-5' : ''">
+                                <v-btn class="botaocards bg-transparent rounded-pill" href="#especi3" :class="smAndDown ? 'mt-5 mb-5' : ''">
                                     <p class="text-terciary" :class="smAndDown ? 'text-body-2' : ''">Detalhes</p>
                                 </v-btn>
                             </div>
 
-                            <div :class="smAndUp ? '' : 'd-none'">
-                                <v-btn class="botaocards bg-transparent rounded-pill" height="60" width="300"
+                            <div class="d-md-none d-lg-block" :class="smAndUp ? '' : 'd-none'">
+                                <v-btn class="botaocards bg-transparent rounded-pill" href="#especi3" height="60" width="300"
                                     :class="smAndDown ? 'mt-5 mb-5 w-50' : 'mt-10 mb-10'">
+                                    <p class="text-terciary" :class="smAndDown ? 'text-body-2' : 'text-h6'"> Ver Detalhes
+                                    </p>
+                                </v-btn>
+                            </div>
+
+                            <div  class="d-none d-md-block d-lg-none">
+                                <v-btn class="botaocards bg-transparent rounded-pill mt-10 mb-10" href="#especi3" height="60" width="180">
                                     <p class="text-terciary" :class="smAndDown ? 'text-body-2' : 'text-h6'"> Ver Detalhes
                                     </p>
                                 </v-btn>
@@ -233,8 +273,12 @@
                     <v-img class="rounded-xl" src="/public/fotocard1.png" width="450" />
                 </div>
 
+                <div class="d-none d-lg-none d-md-block mt-16" align="center">
+                    <v-img class="rounded-xl" src="/public/fotocard1.png" width="400" />
+                </div>
 
-                <div :class="smAndDown ? 'mr-2 mt-7 pr-2 pb-10' : 'mr-16 pr-16 mt-16 ml-16 pt-5 pb-16 mb-16'">
+
+                <div id="especi1" style="margin-top: 100px;" :class="smAndDown ? 'mr-2 mt-7 pr-2 pb-10' : 'mr-16 pr-16 mt-16 ml-16 pt-5 pb-16 mb-16'">
                     <div :class="smAndUp ? 'ml-16' : ''">
                         <p class="p1card1 text-quinary" :class="smAndDown ? 'pr-1 pl-1' : 'text-h6'">DESCUBRA O PODER DA</p>
                         <p class="p2card1 text-quartiary" :class="smAndDown ? 'text-h6 pr-1 pl-1 ' : 'text-h2'">NUTROLOGIA
@@ -293,7 +337,7 @@
 
             <div class="bg-septenary d-flex">
 
-                <div :class="smAndDown ? 'mr-2 mt-7 pl-2 pb-10' : 'mr-16 pr-16 mt-16 ml-5 pl-16 pt-5 pb-16 mb-16'">
+                <div id="especi2" style="margin-top: 100px;" :class="smAndDown ? 'mr-2 mt-7 pl-2 pb-10' : 'mr-16 pr-16 mt-16 ml-5 pl-16 pt-5 pb-16 mb-16'">
                     <div :class="smAndUp ? 'ml-16' : ''">
                         <p class="p1card2 text-quinary" :class="smAndDown ? 'pr-1 pl-1' : 'text-h6 pl-10'">DESCUBRA O PODER
                             DA</p>
@@ -352,6 +396,10 @@
                 <div class="d-none d-lg-block mt-16" align="center">
                     <v-img class="rounded-xl" src="/public/fotocard2.png" width="450" />
                 </div>
+
+                <div class="d-none d-lg-none d-md-block mt-16" align="center">
+                    <v-img class="rounded-xl" src="/public/fotocard2.png" width="400" />
+                </div>
             </div>
 
             <div class="bg-senario d-flex" :class="smAndDown ? '' : 'pl-16'">
@@ -359,11 +407,16 @@
                 <div class="d-lg-none" :class="smAndDown ? 'w-50 pl-2 pr-2 mt-5 mb-2' : ''">
                     <v-img class="rounded-xl" src="/public/fotocard3.png"></v-img>
                 </div>
+
                 <div class="d-none d-lg-block ml-16 pl-16 mt-16" align="center">
                     <v-img class="rounded-xl" src="/public/fotocard3.png" width="450" />
                 </div>
 
-                <div :class="smAndDown ? 'mr-2 mt-7 pr-2 pb-10' : 'mr-16 pr-16 mt-16 ml-16 pt-5 pb-16 mb-16'">
+                <div class="d-none d-lg-none d-md-block mt-16" align="center">
+                    <v-img class="rounded-xl" src="/public/fotocard3.png" width="400" />
+                </div>
+
+                <div id="especi3" style="margin-top: 100px;" :class="smAndDown ? 'mr-2 mt-7 pr-2 pb-10' : 'mr-16 pr-16 mt-16 ml-16 pt-5 pb-16 mb-16'">
                     <div :class="smAndUp ? 'ml-16' : ''">
                         <p class="p1card1 text-quinary" :class="smAndDown ? 'pr-1 pl-1' : 'text-h6'">DESCUBRA O PODER DA</p>
                         <p class="p2card1 text-quartiary" :class="smAndDown ? 'text-h6 pr-1 pl-1 ' : 'text-h2'">FITOTERAPIA
@@ -473,7 +526,7 @@
                 </div>
             </div>
 
-            <div align="center" class="bg-terciary" :class="smAndDown ? 'pt-10' : 'pt-8 pb-16'">
+            <div align="center" class="bg-terciary" :class="smAndDown ? 'pt-10 pb-16' : 'pt-8 pb-16'">
                 <div :class="smAndDown ? '' : 'pt-16 pb-16'">
                     <v-carousel :show-arrows="false" hide-delimiter-background color="primary">
                         <v-carousel-item><v-avatar class="d-lg-none" image="/public/fulana.png" size="80"
@@ -513,7 +566,29 @@
             </div>
 
             <div>
-                <v-img src="/public/bloco8.png" :class="smAndDown ? 'w-100' : ''" />
+                <v-img src="/public/bloco8.jpg" cover :class="smAndDown ? 'w-100' : 'pt-16'">
+                    <div align="center" class="d-md-none d-lg-none d-sm-none" :class="smAndDown ? 'mt-8' : ''">
+                        <v-icon color="primary" :class="smAndDown ? 'mb-5' : ''">mdi-alert-outline</v-icon>
+                        <h3 class="font-weight-light text-white">Sua saúde <span
+                                class="text-primary font-weight-bold">requer atenção!</span></h3>
+                        <p class="text-white font-weight-light" style="font-size: 7px;">QUER CUIDAR DA SUA SAÚDE DE FORMA
+                            <span class="text-primary font-weight-bold">AMPLA E COMPLETA</span>?</p>
+                        <v-btn size="x-small" class="rounded-pill bg-primary" :class="smAndDown ? 'mt-5 px-8' : ''">
+                            <p class="text-quartiary font-weight-bold">Agendar Consulta Integrada</p>
+                        </v-btn>
+                    </div>
+
+                    <div align="center" class="d-none d-sm-block d-lg-block d-md-block" :class="smAndDown ? 'mt-8 pt-10' : 'mt-16 pt-16'">
+                        <v-icon size="xxx-large" color="primary" :class="smAndDown ? 'mb-5' : 'mb-10'">mdi-alert-outline</v-icon>
+                        <h3 class="font-weight-light text-white text-h3 text-md-h2">Sua saúde <span
+                                class="text-primary font-weight-bold">requer atenção!</span></h3>
+                        <p class="text-white font-weight-light mt-3 text-md-h6">QUER CUIDAR DA SUA SAÚDE DE FORMA
+                            <span class="text-primary font-weight-bold">AMPLA E COMPLETA</span>?</p>
+                        <v-btn size="large" class="rounded-pill bg-primary" :class="smAndDown ? 'mt-16 px-8' : 'mt-16 px-16'">
+                            <p class="text-quartiary font-weight-bold">Agendar Consulta Integrada</p>
+                        </v-btn>
+                    </div>
+                </v-img>
             </div>
 
             <div class="d-flex justify-space-between bg-septenary" :class="smAndDown ? 'pt-16' : 'pt-16 pb-16'">
@@ -569,13 +644,16 @@
                     </div>
                     <div class="d-lg-none">
                         <v-btn class="botaomapa bg-transparent rounded-pill"
-                            :class="smAndDown ? 'ml-2 mt-3 pl-5 pr-5' : ''">
+                            href="https://www.google.com/maps/dir//R.+Cel.+Auris+Coelho,+521+-+Lagoa+Nova,+Natal+-+RN,+59075-050/@-5.8247625,-35.2060217,15.5z/data=!4m8!4m7!1m0!1m5!1m1!1s0x7b300102a9d0fa5:0x32cb57a63432e52c!2m2!1d-35.2047043!2d-5.8252238?entry=ttu"
+                            target="_blank" :class="smAndDown ? 'ml-2 mt-3 pl-5 pr-5' : ''">
                             <p :class="smAndDown ? 'text-body-2' : ''">Ver Mapa</p>
                         </v-btn>
                     </div>
 
                     <div class="d-none d-lg-block mr-8 mt-2 pb-16 mb-16" align="right">
-                        <v-btn width="150" height="45" class="botaomapa bg-transparent rounded-pill">
+                        <v-btn width="150" height="45" class="botaomapa bg-transparent rounded-pill"
+                            href="https://www.google.com/maps/dir//R.+Cel.+Auris+Coelho,+521+-+Lagoa+Nova,+Natal+-+RN,+59075-050/@-5.8247625,-35.2060217,15.5z/data=!4m8!4m7!1m0!1m5!1m1!1s0x7b300102a9d0fa5:0x32cb57a63432e52c!2m2!1d-35.2047043!2d-5.8252238?entry=ttu"
+                            target="_blank">
                             <p class="text-body-1">Ver Mapa</p>
                         </v-btn>
                     </div>
@@ -583,7 +661,36 @@
             </div>
 
             <div>
-                <v-img src="/public/bloco8.png" :class="smAndDown ? 'w-100' : ''" />
+                <v-img src="/public/bloco8.jpg" cover :class="smAndDown ? 'w-100' : 'pt-16'">
+                    <div class="d-md-none d-lg-none d-sm-none" align="center" :class="smAndDown ? 'mt-8' : ''">
+                        <p class="text-white font-weight-light" style="font-size: 6px;">QUER CUIDAR DA SUA SAÚDE DE FORMA
+                            <span class="text-primary font-weight-bold">AMPLA E COMPLETA</span>?</p>
+                        <h4 class="text-white font-weight-light" :class="smAndDown ? 'px-12' : ''">Agende uma consulta que
+                            une <span class="font-weight-bold text-primary">diversas abordagens</span> no mesmo atendimento
+                        </h4>
+                        <p class="text-white px-8" style="font-size: 9px;">Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                          
+                        <v-btn size="x-small" class="rounded-pill bg-primary" :class="smAndDown ? 'mt-3 px-8' : ''">
+                            <p class="text-quartiary font-weight-bold">Agendar Consulta Ampla</p>
+                        </v-btn>
+                    </div>
+
+                    <div class="d-none d-sm-block d-lg-block d-md-block" align="center" :class="smAndDown ? 'mt-8' : 'mt-16'">
+                        <p class="text-white font-weight-light text-md-h6">QUER CUIDAR DA SUA SAÚDE DE FORMA
+                            <span class="text-primary font-weight-bold">AMPLA E COMPLETA</span>?</p>
+                        <h4 class="text-white font-weight-light" :class="smAndDown ? 'px-12 mt-2 text-h3' : 'text-h1 mt-3'">Agende uma consulta que
+                            une <span class="font-weight-bold text-primary">diversas abordagens</span> no mesmo atendimento
+                        </h4>
+                        <p class="text-white font-weight-light" :class="smAndDown ? 'px-16 mt-3' : 'mt-3 text-h4 mb-16 px-16'">Lorem ipsum dolor sit amet consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                          
+                        <v-btn size="x-large" class="rounded-pill bg-primary" :class="smAndDown ? 'mt-10 px-8' : 'mt-16 px-16'">
+                            <p class="text-quartiary font-weight-bold">Agendar Consulta Ampla</p>
+                        </v-btn>
+                    </div>
+
+
+
+                </v-img>
             </div>
 
             <div>
@@ -607,11 +714,23 @@
   
 <style scoped>
 
-.font1 {
- font-family: "Poppins-Regular", "Poppins", sans-serif;
+#especi1 {
+    scroll-margin-top: 100px;
 }
+
+#especi2 {
+    scroll-margin-top: 100px;
+}
+
+#especi3 {
+    scroll-margin-top: 100px;
+}
+.font1 {
+    font-family: "Poppins-Regular", "Poppins", sans-serif;
+}
+
 .font2 {
-font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .font3 {
@@ -620,8 +739,8 @@ font-family: "Roboto", sans-serif;
 }
 
 .font4 {
-font-family: "Poppins-Regular", "Poppins", sans-serif;
-font-weight: 300;
+    font-family: "Poppins-Regular", "Poppins", sans-serif;
+    font-weight: 300;
 }
 
 .cyrobloco1 {
